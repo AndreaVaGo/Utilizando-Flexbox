@@ -1,4 +1,4 @@
-# Exercise - HTML5 & CSS3 - Frontend - Reproduce using Flexbox
+# HTML5 & CSS3 - Reproduce using Flexbox
 
 ## Descripción
 Ejercicio de maquetación con HTML5 y CSS3 reproduciendo un diseño dado utilizando Flexbox. El diseño es responsive y se adapta a escritorio y móvil.
@@ -10,7 +10,7 @@ Ejercicio de maquetación con HTML5 y CSS3 reproduciendo un diseño dado utiliza
   - Variables CSS (Custom Properties)
   - @import para modularización
   - @font-face para fuente local
-- Fuente Inter (descargada desde Google Fonts y servida en local)
+- Fuente Inter (Variable Font descargada desde Google Fonts y servida en local con @font-face)
 
 ## Estructura del proyecto
 ├── css/
@@ -18,7 +18,7 @@ Ejercicio de maquetación con HTML5 y CSS3 reproduciendo un diseño dado utiliza
 │   ├── base.css       → variables, reset, fuentes y estilos generales
 │   └── card.css       → estilos de las cards
 ├── fonts/
-│   └── Inter-VariableFont.ttf  → fuente Inter en local
+│   └── Inter-VariableFont_opsz,wght.ttf  → fuente variable Inter en local
 ├── imgs/
 │   ├── html5.svg               → logo HTML5
 │   ├── css3.svg                → logo CSS3
@@ -56,6 +56,8 @@ Ejercicio de maquetación con HTML5 y CSS3 reproduciendo un diseño dado utiliza
 - `Add responsive design for mobile` → media queries para móvil
 - `Remove accidental dev file` → limpieza de archivo accidental
 - `Add local typography with @font-face and update README` → fuente Inter en local
+- `Fix CSS loading for GitHub Pages` → enlace directo a base.css y card.css
+- `Fix font-face path for variable font` → corrección de ruta de fuente local
 
 ## Requisitos cumplidos
 - [x] Flexbox para el layout
@@ -66,5 +68,5 @@ Ejercicio de maquetación con HTML5 y CSS3 reproduciendo un diseño dado utiliza
 - [x] Desplegado en GitHub Pages
 
 ## Enlaces
-- Repositorio: https://github.com/AndreaVaGo/ex-html-css-frontend-reproduce-using-flexbox
-- GitHub Pages: (pendiente)
+- Repositorio: https://github.com/AndreaVaGo/Utilizando-Flexbox
+- GitHub Pages: https://andreavago.github.io/Utilizando-Flexbox
