@@ -1,0 +1,33 @@
+/* Variables globales */
+:root {
+  --color-background: #d9d9d9;
+  --color-card: #efefef;
+  --color-text: #222;
+  --color-link: blue;
+  --font-main: 'Inter', sans-serif;
+  --border-radius: 12px;
+  --shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: var(--font-main);
+  background-color: var(--color-background);
+  padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

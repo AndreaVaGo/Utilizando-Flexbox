@@ -1,0 +1,50 @@
+/* Estilos de las cards */
+.card {
+  background-color: var(--color-card);
+  border-radius: var(--border-radius);
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  box-shadow: var(--shadow);
+}
+
+.card__logo {
+  flex: 0 0 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__logo img {
+  width: 180px;
+  height: auto;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card__content h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.card__content p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--color-text);
+}
+
+.card__content a {
+  color: var(--color-link);
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.card__content a:hover {
+  text-decoration: underline;
+}
