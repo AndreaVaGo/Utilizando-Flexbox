@@ -1,3 +1,16 @@
+/* Fuentes locales */
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
 /* Variables globales */
 :root {
   --color-background: #d9d9d9;

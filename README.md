@@ -5,8 +5,8 @@ Ejercicio de maquetación con HTML5 y CSS3 reproduciendo un diseño dado utiliza
 
 ## Tecnologías utilizadas
 - HTML5
-- CSS3 (Flexbox, Variables CSS, @import, Nesting)
-- Google Fonts (Inter)
+- CSS3 (Flexbox, Variables CSS, @import, @font-face)
+- Google Fonts (Inter) — fuente descargada y servida en local
 
 ## Estructura del proyecto
 ├── css/
@@ -36,10 +36,10 @@ Ejercicio de maquetación con HTML5 y CSS3 reproduciendo un diseño dado utiliza
 
 ## Requisitos cumplidos
 - [x] Flexbox para el layout
-- [x] Google Fonts (Inter)
-- [ ] Enlace "Learn more about HTML" → https://lenguajehtml.com/html/
-- [ ] Enlace "Learn more about CSS" → https://lenguajecss.com/css/
-- [ ] Diseño responsive
+- [x] Google Fonts (Inter) — servida en local con @font-face
+- [x] Enlace "Learn more about HTML" → https://lenguajehtml.com/html/
+- [x] Enlace "Learn more about CSS" → https://lenguajecss.com/css/
+- [x] Diseño responsive
 - [ ] Desplegado en GitHub Pages
 
 ## Enlaces
