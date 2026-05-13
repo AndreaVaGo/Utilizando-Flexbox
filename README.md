@@ -58,6 +58,8 @@ Ejercicio de maquetación con HTML5 y CSS3 reproduciendo un diseño dado utiliza
 - `Add local typography with @font-face and update README` → fuente Inter en local
 - `Fix CSS loading for GitHub Pages` → enlace directo a base.css y card.css
 - `Fix font-face path for variable font` → corrección de ruta de fuente local
+- `Fix CSS folder name to lowercase` → corrección de nombre de carpeta para GitHub Pages
+- `Add missing h1 title` → se había eliminado el título por error
 
 ## Requisitos cumplidos
 - [x] Flexbox para el layout
